@@ -1,0 +1,102 @@
+*{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0,4);
+  
+    
+}
+.teams-outer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    height: 180px;
+    width: 180px;
+    background:rgba(255,256,256);
+    border-radius: 24px;
+   
+    margin: auto;
+    margin-top: 50vh;
+    
+}
+.teams-inner-1{
+    position: relative;
+    z-index: 6;
+    height: 70px;
+    width: 70px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 22px;
+    border-radius: 10px;
+    background-color: rgb(70, 78, 184);
+    
+
+}
+.teams-inner-1 .teams-inner-2{
+   height: 4px;
+   width:33px;
+    background: rgba(255,256,256);
+    margin-top: 10px;
+    margin-left: 20px;
+
+}.teams-inner-1 .teams-inner-3{
+    height: 33px;
+    width:4px;
+     background: rgba(255,256,256);
+     
+     margin-left: 33px;
+ 
+ }
+ .teams-box-1{
+    
+   position: absolute;
+    left: 75px;
+    z-index: 3;
+    background: #7B83EB;
+    height: 70px;
+    width:60px;
+    margin-top: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+    
+ }
+ .teams-box-2{
+   
+   
+     background: #505AC9;
+     height: 50px;
+     width:60px;
+     margin-top:2px;
+     position: relative;
+     z-index:1;
+     
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     
+     
+  }
+  .teams-dot-1{
+   
+    position: absolute;
+    margin-bottom: 10px;
+    background: #7B83EB;
+    border-radius: 50%;
+  
+    
+  
+ 
+  }
+  .teams-dot-2{
+    background: #505AC9;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+  }
